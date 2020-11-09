@@ -1,6 +1,6 @@
 rocketmq: 
   config: 
-    namesrvAddr: localhost:9876
+    namesrvAddr: rmqserver:9876
 eureka: 
     instance: 
         leaseRenewalIntervalInSeconds: 2
@@ -9,4 +9,4 @@ eureka:
     client:
         registerWithEureka: true
         serviceUrl: 
-            defaultZone:  http://eureka-server:8761/eureka/
+            defaultZone:  http://eureka1:8761/eureka/
